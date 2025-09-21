@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Meta tags for SEO and responsive design -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Panashe Sanyanga | Software Engineer Portfolio</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" href="images/favicon.ico" />
+    
+    <!-- Google Fonts - Anton for headers, Roboto for body text -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    
+    <!-- Main stylesheet -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Background animation orbs -->
+    <div class="floating-orbs"></div>
+    
+    <!-- Main navigation header -->
+    <header>
+      <div class="container header-bar">
+        <!-- Personal logo/brand -->
+        <div class="logo">PS <br />PROJECTS</div>
+        
+        <!-- Main navigation menu -->
+        <nav class="nav">
+          <a href="index.html" class="active">HOME</a>
+          <a href="projects.html">PROJECTS</a>
+          <a href="about.html">ABOUT</a>
+          <a href="contact.html">CONTACT</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero container" id="home">
+        <div class="hero-content">
+          <div class="intro">
+            <h1>Hey there, I'm Panashe Sanyanga</h1>
+            <p>
+              I'm a Computer Science student who's really passionate about
+              building things that actually work and make a difference. Right
+              now I'm diving deep into backend development, learning how to
+              create systems that can handle real-world problems. I'm
+              particularly drawn to fintech and data-driven applications -
+              basically anything where code meets the real world and solves
+              actual problems people face.
+            </p>
+            <a href="#projects" class="cta">See My Projects</a>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="projects container"
+        id="projects"
+        aria-label="Featured Projects"
+      >
+        <h2>Projects</h2>
+
+        <div class="project-grid">
+          <!-- VaultComics E-commerce Website -->
+          <div class="project-card">
+            <h3>VaultComics</h3>
+            <p>
+              My first real website! It's a comic book store where you can
+              browse comics and add them to your cart. I built this to learn the
+              basics of web development - HTML, CSS, and JavaScript. It's pretty
+              simple but it taught me how websites actually work.
+            </p>
+            <div class="project-tech">
+              <span class="tech-tag">HTML5</span>
+              <span class="tech-tag">CSS3</span>
+              <span class="tech-tag">JavaScript</span>
+            </div>
+            <div class="project-links">
+              <a
+                href="https://github.com/Code-by-PS/vaultcomics.github.io"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="button-link"
+              >
+                View on GitHub
+              </a>
+              <a
+                href="https://code-by-ps.github.io/vaultcomics.github.io/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="button-link secondary"
+              >
+                Live Demo
+              </a>
+            </div>
+          </div>
+
+          <!-- Trading Platform -->
+          <div class="project-card">
+            <h3>Trading Platform</h3>
+            <p>
+              This is my most ambitious project so far - a full trading platform
+              where you can track stocks and manage a portfolio. I used FastAPI
+              for the backend and added real-time price updates. It handles user
+              authentication securely and gives you analytics on your trading
+              performance.
+            </p>
+            <div class="project-tech">
+              <span class="tech-tag">FastAPI</span>
+              <span class="tech-tag">Python</span>
+              <span class="tech-tag">SQLAlchemy</span>
+              <span class="tech-tag">JavaScript</span>
+            </div>
+            <div class="project-links">
+              <a
+                href="https://github.com/Code-by-PS/Trading-Platform"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="button-link"
+              >
+                View on GitHub
+              </a>
+            </div>
+          </div>
+
+          <!-- Keep in Touch Chat -->
+          <div class="project-card">
+            <h3>Keep in Touch Chat</h3>
+            <p>
+              A chat app I built so friends and family can stay connected in
+              real-time. It's got all the basic messaging features you'd expect,
+              with a clean interface that's easy to use. Perfect for keeping
+              conversations going without the distractions of bigger social
+              platforms.
+            </p>
+            <div class="project-tech">
+              <span class="tech-tag">WebSocket</span>
+              <span class="tech-tag">JavaScript</span>
+              <span class="tech-tag">Real-time</span>
+            </div>
+            <div class="project-links">
+              <a
+                href="https://github.com/Code-by-PS/keep-in-touch-chat"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="button-link"
+              >
+                View on GitHub
+              </a>
+            </div>
+          </div>
+
+          <!-- Personal Portfolio Website -->
+          <div class="project-card">
+            <h3>Personal Portfolio Website</h3>
+            <p>
+              This very website you're looking at! After learning more about
+              HTML, CSS, and JavaScript, I wanted to create a proper portfolio
+              to showcase my work. It's got a clean design with some interactive
+              elements to demonstrate what I've learned so far.
+            </p>
+            <div class="project-tech">
+              <span class="tech-tag">HTML5</span>
+              <span class="tech-tag">CSS3</span>
+              <span class="tech-tag">JavaScript</span>
+              <span class="tech-tag">Responsive Design</span>
+            </div>
+            <div class="project-links">
+              <a
+                href="https://github.com/Code-by-PS/PS-PORTFOLIO"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="button-link"
+              >
+                View on GitHub
+              </a>
+              <a href="#" class="button-link secondary" style="display: none">
+                Live Demo
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="experience-section container" id="experience">
+        <h2>My Journey</h2>
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <h3>Computer Science Student</h3>
+              <p class="date">Sept 2023 - Present</p>
+              <p>
+                Studying Computer Science and learning everything I can about
+                building software.
+              </p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <h3>VaultComics E-commerce Website</h3>
+              <p class="date">March 4, 2025 - May 16, 2025</p>
+              <p>
+                My university project where I built my first real website - a
+                comic book store. I learned HTML, CSS, and JavaScript from
+                scratch and figured out how to make a product catalog, shopping
+                cart, and checkout process that actually works.
+              </p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <h3>Personal Portfolio Website</h3>
+              <p class="date">April 7, 2025 - Present</p>
+              <p>
+                After getting better at HTML, CSS, and JavaScript, I decided to
+                create this portfolio website to show off my projects. It's got
+                responsive design, some interactive features, and a clean layout
+                that demonstrates what I've learned so far.
+              </p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <h3>Keep in Touch Chat Application</h3>
+              <p class="date">June 17, 2025 - July 29, 2025</p>
+              <p>
+                I built a chat app so friends and family could stay connected in
+                real-time. It uses WebSockets to make messages appear instantly,
+                and I focused on making the interface clean and easy to use.
+                This was my first time working with real-time technology.
+              </p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <h3>Trading Platform Development</h3>
+              <p class="date">August 2, 2025 - September 13, 2025</p>
+              <p>
+                My biggest project so far - a complete trading platform where
+                you can track stocks and manage a portfolio. I built the backend
+                with FastAPI, added real-time price updates, secure user
+                authentication, and portfolio analytics with charts. This was a
+                real challenge!
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="insights-section" aria-label="Insights and Tutorials">
+        <h2>Insights</h2>
+        <p>
+          Here's where I write about what I learned while building these
+          projects. I share the challenges I faced, the decisions I made, and
+          what I'd do differently next time. More articles coming soon!
+        </p>
+        <div class="insights-cards">
+          <article class="insight-card">
+            <h3>My First Website: VaultComics</h3>
+            <p>
+              The story of building my first real website - a comic book store.
+              I walk through the challenges of learning HTML, CSS, and
+              JavaScript from scratch, and what I wish I knew then.
+            </p>
+            <a
+              href="insights.html"
+              class="button-link"
+              aria-label="Read article about VaultComics"
+              >Read Article</a
+            >
+          </article>
+
+          <article class="insight-card">
+            <h3>Creating a Trading Platform</h3>
+            <p>
+              My most complex project yet - building a full trading platform. I
+              explain how I used FastAPI, handled real-time data, implemented
+              security, and created portfolio analytics from scratch.
+            </p>
+            <a
+              href="insights.html"
+              class="button-link"
+              aria-label="Read article about Trading Platform"
+              >Read Article</a
+            >
+          </article>
+
+          <article class="insight-card">
+            <h3>Building a Real-Time Chat App</h3>
+            <p>
+              The journey of creating a chat application that actually works in
+              real-time. I break down WebSocket technology, user interface
+              design, and the challenges of making everything feel smooth and
+              responsive.
+            </p>
+            <a
+              href="insights.html"
+              class="button-link"
+              aria-label="Read article about Keep in Touch Chat"
+              >Read Article</a
+            >
+          </article>
+
+          <article class="insight-card">
+            <h3>Building This Portfolio</h3>
+            <p>
+              How I created this website to showcase my projects. I explain the
+              design choices I made, the interactive features I added, and how I
+              learned to properly structure a website.
+            </p>
+            <a
+              href="insights.html"
+              class="button-link"
+              aria-label="Read article about Portfolio Website"
+              >Read Article</a
+            >
+          </article>
+        </div>
+
+        <a
+          href="about.html"
+          class="button-link"
+          aria-label="See more insights"
+          style="display: inline-block; margin-top: 1rem"
+          >See More Insights</a
+        >
+      </section>
+
+      <section class="contact-page container" id="contact">
+        <div class="contact-intro">
+          <h1>Let's Connect!</h1>
+          <p>
+            Have a project in mind, a question, or just want to chat? Feel free
+            to reach out.
+          </p>
+        </div>
+
+        <div class="contact-info">
+          <h2>Get in Touch</h2>
+          <p>
+            <strong>Email:</strong>
+            <a href="mailto:panashe.sanyanga@example.com"
+              >panashe.sanyanga@hotmail.com</a
+            >
+          </p>
+          <p>
+            <strong>LinkedIn:</strong>
+            <a
+              href="https://www.linkedin.com/in/panashe-l-s"
+              target="_blank"
+              rel="noopener noreferrer"
+              >linkedin.com/in/panashe-l-s</a
+            >
+          </p>
+          <p>
+            <strong>GitHub:</strong>
+            <a
+              href="https://github.com/Code-by-PS"
+              target="_blank"
+              rel="noopener noreferrer"
+              >github.com/panashe-sanyanga</a
+            >
+          </p>
+        </div>
+
+        <div class="contact-form-section">
+          <h2>Send Me a Message</h2>
+          <form class="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required />
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+
+            <label for="subject">Subject:</label>
+            <input type="text" id="subject" name="subject" />
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="6" required></textarea>
+
+            <button type="submit">Send Message</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer>&copy; 2025 Made by <strong>Panashe Sanyanga</strong></footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
